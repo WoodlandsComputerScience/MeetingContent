@@ -53,6 +53,7 @@ class Game:
     # Checks the "edit distance" of a word to see how accurate the entered word was
     def edit_distance(self, str1, str2, m, n):
         # Create a table to store results of subproblems
+        # "Dynamic Programming"
         dp = [[0 for x in range(n + 1)] for x in range(m + 1)]
 
         # Fill d[][] in bottom up manner
@@ -75,7 +76,8 @@ class Game:
     # Randomly selects a sentence from `sentences.txt`
     def get_sentence(self):
         f = open("sentences.txt").read()
-        sentences = f.split('\n')
+        sentences = f.split('\n') # changes all the individual lines
+                                  # of the file into a list of sentences
         sentence = random.choice(sentences)
         return sentence
 
@@ -86,15 +88,15 @@ class Game:
             self.total_time = time.time() - self.time_start
 
             # calculate accuracy
-            count = 0 # correct letters?
-            for i, c in enumerate(self.word): # returns a list of pairs of each
-                                              #   ie. [(0,self.word[0]),(1,self.word[1])]
-                try:
-                    if(self.input_text[i] == c):
-                        count += 1
-                except:
-                    pass
-            self.accuracy = count/len(self.word)*100 # calculates accuracy as a percentage
+            # count = 0 # correct letters?
+            # for i, c in enumerate(self.word): # returns a list of pairs of each
+            #                                   #   ie. [(0,self.word[0]),(1,self.word[1])]
+            #     try:
+            #         if(self.input_text[i] == c):
+            #             count += 1
+            #     except:
+            #         pass
+            # self.accuracy = count/len(self.word)*100 # calculates accuracy as a percentage
 
             # calculate wpm
             self.wpm = len(self.input_text)*60/(5*self.total_time) # NOTE: a "word" when calculating WPM is 5 strokes (Shift counts I think?/idk ask Max)
@@ -126,7 +128,7 @@ class Game:
             self.draw_text(self.screen, self.input_text,
                            274, 26, (250, 250, 250))
             if(self.input_text == ''):
-                self.time_start = time.time()
+                self.time_start = time.time() # resets the clock if there is no input
             if(not self.end):
                 pygame.draw.rect(self.screen, (0, 0, 0), (300, 301, 150, 30))
                 self.draw_text(self.screen, str(
@@ -136,7 +138,7 @@ class Game:
                 if(event.type == KEYDOWN):
                     if(event.key == K_ESCAPE):
                         self.running = False
-                if(event.type == pygame.MOUSEBUTTONUP):
+                if(event.type == pygame.MOUSEBUTTONUP): # sets the input box active
                     x, y = pygame.mouse.get_pos()
                     # position of input box
                     if(x >= 50 and x <= 650 and y >= 250 and y <= 300):
@@ -147,11 +149,12 @@ class Game:
                     if(x >= 310 and x <= 510 and y >= 390 and self.end):
                         self.reset_game()
                         x, y = pygame.mouse.get_pos()
+                # track all "KEYDOWN" events
                 if(event.type == pygame.KEYDOWN):
                     if(self.active and not self.end):
-                        if(event.key == pygame.K_RETURN):
+                        if(event.key == pygame.K_RETURN): #K_RETURN is the ENTER key
                             print(self.input_text)
-                            self.show_results(self.screen)
+                            self.show_results(self.screen) # show the results of the test when you're done typing
                             print(self.results)
                             self.draw_text(
                                 self.screen, self.results, 350, 28, self.RESULT_C)

@@ -52,16 +52,25 @@ class Game:
 
     # Checks the "edit distance" of a word to see how accurate the entered word was
     def edit_distance(self, str1, str2, m, n):
-        if(m == 0):
-            return n
-        if(n == 0):
-            return m
-        if(str1[m-1] == str2[n-1]):
-            return self.edit_distance(str1, str2, m-1, n-1)
-        return 1 + min(
-            self.edit_distance(str1, str2, m, n-1),
-            self.edit_distance(str1, str2, m-1, n),
-            self.edit_distance(str1, str2, m-1, n-1))
+        # Create a table to store results of subproblems
+        dp = [[0 for x in range(n + 1)] for x in range(m + 1)]
+
+        # Fill d[][] in bottom up manner
+        for i in range(m + 1):
+            for j in range(n + 1):
+                if(i == 0):
+                    dp[i][j] = j # Min. operations = j
+                elif(j == 0):
+                    dp[i][j] = i # Min. operations = i
+                elif(str1[i-1] == str2[j-1]):
+                    dp[i][j] = dp[i-1][j-1]
+                # If last character are different, consider all
+                # possibilities and find minimum
+                else:
+                    dp[i][j] = 1 + min(dp[i][j-1],   # Insert
+                                       dp[i-1][j],   # Remove
+                                       dp[i-1][j-1]) # Replace
+        return dp[m][n]
 
     # Randomly selects a sentence from `sentences.txt`
     def get_sentence(self):
@@ -97,7 +106,7 @@ class Game:
             # draw icon image
             self.time_img = pygame.image.load("icon.png")
             self.time_img = pygame.transform.scale(self.time_img, (150, 150))
-            screen.blit(self.time_img, (self.w/2 - 75, self.h - 140))
+            screen.blit(self.time_img, (self.w//2 - 75, self.h - 140))
             # add "Reset" text
             self.draw_text(screen, "Reset", self.h - 70, 26, (100, 100, 100))
 

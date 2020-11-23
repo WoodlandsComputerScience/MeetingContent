@@ -46,7 +46,7 @@ class Game:
         font = pygame.font.Font(None, fsize) # use default font and set it to
                                              # `fsize` (which is an argument from the function)
         text = font.render(msg, 1, color) # set colour of the text
-        text_rect = text.get_rect(center=(self.w/2, y))
+        text_rect = text.get_rect(center=(self.w//2, y))
         screen.blit(text, text_rect)
         pygame.display.update() # render (update) the window with the new text
 

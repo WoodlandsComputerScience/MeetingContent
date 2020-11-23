@@ -9,6 +9,8 @@
 |October 5, 2020| Club Introduction, overview of terminology, sets and stacks | *same as Group A* |
 |October 19, 2020| complexity analysis, PSA, Difference Arrays | setting up working environment, basic Python syntax, review |
 |October 26, 2020| implementation problems | functions |
+|November 9, 2020|  | functions, list, dictionaries, and how to work with files |
+|November 23,2020|  | pygame |
 
 
 ## Future Topics

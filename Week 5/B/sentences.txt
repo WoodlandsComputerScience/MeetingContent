@@ -1,3 +1,10 @@
+The red brown fox jumps over the sleeping baby!
+CS Club is so fun!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit
+self.results = "Time: 0 Accuracy: 0 % WPM: 0"
+def __init__(self):
+py -m pip install -U pygame --user
+If you have any suggestions, please fill out the form!
 Be yourself; everyone else is already taken.
 You only live once, but if you do it right, once is enough.
 Man is the only creature who refuses to be what he is.

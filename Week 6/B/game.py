@@ -49,6 +49,7 @@ pygame.display.set_caption("Game")
 class Enemy(pygame.sprite.Sprite):
     # NOTE: all objects that are created (including this "Sprite") runs the
     # `__init__` function first (on initialization)!
+    # self refers to the specific "instance" of the object
     def __init__(self):
         super().__init__()  # call pygame's Sprite super class's `__init__` function
         # Image of the missile
@@ -60,6 +61,7 @@ class Enemy(pygame.sprite.Sprite):
             # number between the two inputted values
             center=(random.randint(20, SCREEN_WIDTH-20), 0))
 
+    # objects could have it's own functions
     def move(self):
         global SCORE  # recall that we learnt that you must use the `global` keyword
         # if you want to use a "global" variable!
@@ -86,15 +88,13 @@ class Player(pygame.sprite.Sprite):
 
     def move(self):
         pressed_keys = pygame.key.get_pressed()
-        # if pressed_keys[K_UP]:
-        #     self.rect.move_ip(0, -5)
-        # if pressed_keys[K_DOWN]:
-        #     self.rect.move_ip(0,5)
-        if self.rect.left > 0:
-            if pressed_keys[K_LEFT]:
+        if self.rect.top > 0 and pressed_keys[K_UP]:
+            self.rect.move_ip(0, -5)
+        if self.rect.bottom < SCREEN_HEIGHT and pressed_keys[K_DOWN]:
+            self.rect.move_ip(0,5)
+        if self.rect.left > 0 and pressed_keys[K_LEFT]:
                 self.rect.move_ip(-5, 0)
-        if self.rect.right < SCREEN_WIDTH:
-            if pressed_keys[K_RIGHT]:
+        if self.rect.right < SCREEN_WIDTH and pressed_keys[K_RIGHT]:
                 self.rect.move_ip(5, 0)
 
 ######################################
@@ -115,6 +115,7 @@ all_sprites.add(E1)
 
 # Adding a new User event
 INC_SPEED = pygame.USEREVENT + 1
+# The SPEED of the game increases every second
 pygame.time.set_timer(INC_SPEED, 1000)
 
 # "Game Loop"
@@ -127,6 +128,8 @@ while True:
             pygame.quit()
             sys.exit()
 
+    # The background in pygame is just the first image that get's
+    # rendered at the beginning of each loop/frame
     DISPLAYSURF.blit(background, (0, 0))
     scores = font_small.render(str(SCORE), True, WHITE)
     DISPLAYSURF.blit(scores, (10, 10))
@@ -139,6 +142,7 @@ while True:
     # If a missile hits the fighter jet
     if pygame.sprite.spritecollideany(P1, enemies):
         #   pygame.mixer.Sound('crash.wav').play()
+        # pause the loop so that the "game over" screen appears during this duration
         time.sleep(0.5)
 
         # Display game over screen

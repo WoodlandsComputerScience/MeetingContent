@@ -27,9 +27,10 @@ SPEED = 7
 SCORE = 0
 
 # Fonts
-font = pygame.font.SysFont("Verdana", 60)
-font_small = pygame.font.SysFont("Verdana", 20)
-game_over = font.render("Game Over", True, BLACK)
+font = pygame.font.SysFont("Verdana", 75)
+font_small = pygame.font.SysFont("Verdana", 45) # used for rendering the score
+## Game over text
+game_over = font.render("Game Over :(", True, WHITE)
 
 # Background Image
 background = pygame.image.load("bg.jpg")
@@ -127,7 +128,7 @@ while True:
             sys.exit()
 
     DISPLAYSURF.blit(background, (0, 0))
-    scores = font_small.render(str(SCORE), True, BLACK)
+    scores = font_small.render(str(SCORE), True, WHITE)
     DISPLAYSURF.blit(scores, (10, 10))
 
     # Moves and re-renders all the Sprites
@@ -142,7 +143,7 @@ while True:
 
         # Display game over screen
         DISPLAYSURF.fill(RED)
-        DISPLAYSURF.blit(game_over, (30, 250))
+        DISPLAYSURF.blit(game_over, (280, 750))
 
         # Clean up the game so that there are no memory leaks
         pygame.display.update()

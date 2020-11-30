@@ -6,7 +6,8 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|November 23,2020|  | pygame |
+|November 30, 2020|  | pygame 2 |
+|November 23, 2020|  | pygame |
 |November 9, 2020|  | functions, list, dictionaries, and how to work with files |
 |October 26, 2020| implementation problems | functions |
 |October 19, 2020| complexity analysis, PSA, Difference Arrays | setting up working environment, basic Python syntax, review |

@@ -20,5 +20,5 @@
 *Topics we may cover in the future weeks. Please let us known if you have any suggestions.*
 
 - How to use Git
-- Making a Discord Bot
-- Web and Game Dev
+- Web Dev
+- Web Scraping

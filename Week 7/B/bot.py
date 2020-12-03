@@ -19,6 +19,7 @@ import commands
 # - Install `discord.py` from PIP
 # - Run `bot.py` using the respective commands for your operating system
 
+# !DOCUMENTATION! : https://discordpy.readthedocs.io/en/latest
 
 print("Bot starting...\n")
 

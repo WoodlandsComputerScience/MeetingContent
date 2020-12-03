@@ -24,5 +24,38 @@ async def react(msg, args):
     return True
 
 
+# https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.add_roles
 async def roles(msg, args):
+    return True
+
+
+#################################
+### Save these for the future ###
+#################################
+
+
+async def listeners(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#invite
+async def sendInvite(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#attachment
+async def sendAttachment(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#voice
+async def playMusic(msg, args):
+    return True
+
+
+async def kick(msg, args):
+    return True
+
+
+async def ban(msg, args):
     return True

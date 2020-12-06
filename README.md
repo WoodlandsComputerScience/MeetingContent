@@ -6,6 +6,7 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|December 7, 2020| more graph theory, DFS, BFS | **discord.py** bot! |
 |November 30, 2020| recursion 2 + intro to graph theory | pygame 2 |
 |November 23, 2020| recursion | pygame |
 |November 9, 2020| binary searching | functions, list, dictionaries, and how to work with files |

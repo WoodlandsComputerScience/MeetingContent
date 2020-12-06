@@ -3,13 +3,13 @@ import os
 import platform
 import sys
 import re
+import timeit
 
 # Import our config file
 if not os.path.isfile("config.py"):
     sys.exit("'config.py' not found :(")
 
 import config
-import commands
 
 
 #######################
@@ -21,10 +21,14 @@ import commands
 
 # !DOCUMENTATION! : https://discordpy.readthedocs.io/en/latest
 
+# print(f"Path: {sys.path}") # for debuging Python's PATH
+
+# for calculating uptime later
+startTime = timeit.default_timer()
+
 print("Bot starting...\n")
 
 client = discord.Client()
-
 
 @client.event
 async def on_ready():
@@ -36,18 +40,14 @@ async def on_ready():
     print(f'Running on: {platform.system()} {platform.release()} ({os.name})')
     print('-----')
     # Set status of bot
-    # client.
+    # TODO: for 2nd Discord.py meeting:
+    # - bot activity
+    # - bot profile
+    # - bot nickname
 
 # Dictionary of the available commands
-commandsList = {
-    'ping': commands.ping,  # Pong!
-    'uptime': commands.uptime,  # tells you the bot's uptime
-    'dm': commands.dm,  # sends you a DM
-    'embed': commands.embed,  # sends you an "embed"
-    'react': commands.react,  # reacts to your message
-    'roles': commands.roles,  # list roles, add role, remove role
-}
-
+# !~ go to the bottom to see the actual list of commands!
+commandsList = {} # this just initializes the list
 
 @client.event
 async def on_message(msg: discord.Message):
@@ -83,6 +83,97 @@ async def on_message(msg: discord.Message):
         response = await commandsList.get(cmd)(msg, args)
         # ^^ the "response" is a boolean value telling you
         #  if the command ran without errors/problems
+        print(f"{msg.author.name} ran the command `{cmd}`" + ("." if response else " but failed.")) # the brackets are important btw
+                         # .nickname
+
+        if not response:
+            await msg.add_reaction('🚫') # DOCS: https://discordpy.readthedocs.io/en/latest/api.html?highlight=message#discord.Message.add_reaction
+                # Parameters:  emoji (Union[Emoji, Reaction, PartialEmoji, str]) 
+                # Where to find ascii emojis: https://emojipedia.org/
+
+async def help(msg, args):
+    # Return an embed
+    return True
 
 
+async def ping(msg, args):
+    await msg.channel.send('Pong!')
+    return True
+
+async def failed(msg, args):
+    return False
+
+async def uptime(msg, args):
+    currentTime  = timeit.default_timer()
+    uptime = currentTime - startTime
+    # TODO: for next meeting, convert time into a more readable measurement
+    await msg.channel.send(
+        f"The bot has been active for {uptime} seconds")
+    return True
+
+
+async def dm(msg, args):
+    return True
+
+
+async def embed(msg, args):
+    return True
+
+
+async def react(msg, args):
+    await msg.add_reaction('👌')
+    await msg.add_reaction('👋')
+    await msg.add_reaction('🍌')
+    await msg.add_reaction('👿')
+    await msg.add_reaction('🐧')
+    # TODO: show custom emoji querying for next week
+    return False # did this for effect :)
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.add_roles
+async def roles(msg, args):
+    return True
+
+
+#################################
+### Save these for the future ###
+#################################
+
+
+async def listeners(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#invite
+async def sendInvite(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#attachment
+async def sendAttachment(msg, args):
+    return True
+
+
+# https://discordpy.readthedocs.io/en/latest/api.html#voice
+async def playMusic(msg, args):
+    return True
+
+
+async def kick(msg, args):
+    return True
+
+
+async def ban(msg, args):
+    return True
+
+
+commandsList = {
+    'ping': ping,  # Pong!
+    'uptime': uptime,  # tells you the bot's uptime
+    'failed': failed, # Used to test the command system
+    'dm': dm,  # sends you a DM
+    'embed': embed,  # sends you an "embed"
+    'react': react,  # reacts to your message
+    'roles': roles,  # list roles, add role, remove role
+}
 client.run(config.token)

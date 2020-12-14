@@ -67,7 +67,7 @@ async def on_message(msg: discord.Message):
 
         # *Basic* way: `args = msg.content[1:].split()`
         # *Big Brain* way (regex):
-        args = re.compile(' +').split(msg.content[1:])
+        args = re.compile(' +').split(msg.content[len(config.prefix):])
         if len(args) == 0:  # do not except commands that are empty
             return
         # the pop function returns the value of the removed item
@@ -81,9 +81,10 @@ async def on_message(msg: discord.Message):
         # !NOTE: there are multiple ways to approach this!!! Lemme explain -Nathan
 
         # Recall that a dictionary is a "unordered collection of key-value pairs"
-        response = await commandsList.get(cmd)(msg, args)
+        response = await commandsList.get(cmd)(msg, args) if cmd in commandsList else False
         # ^^ the "response" is a boolean value telling you
         #  if the command ran without errors/problems
+        #  `response = False` when the command is not found!
         print(f"{msg.author.name} ran the command `{cmd}`" + ("." if response else " but failed.")) # the brackets are important btw
                          # .nickname
 
@@ -93,10 +94,20 @@ async def on_message(msg: discord.Message):
                 # Where to find ascii emojis: https://emojipedia.org/
 
 async def helpcommand(msg, args):
-    embedVar = discord.Embed(title="Title", description="Test", color=0x00ff00)
-    embedVar.add_field(name="Field1", value="help1", inline=False)
-    embedVar.add_field(name="Field2", value="help2", inline=False)
+    embedVar = discord.Embed(
+        title="Help for "+client.user.name,
+        description="You are reading the help page right now...",
+        color=0x00ff00)
+    embedVar.add_field(name="ping", value="Pong!", inline=False)
+    embedVar.add_field(name="failed", value="Returns False", inline=False)
+    embedVar.add_field(name="uptime", value="Tells you how long the bot has been running", inline=False)
+    embedVar.add_field(name="dm", value="Sends you a test message to your DMs", inline=False)
+    embedVar.add_field(name="embed", value="Shows you an embed", inline=False)
+    embedVar.add_field(name="react", value="Reacts to your message with emojis!", inline=False)
+    embedVar.add_field(name="roles", value="Changes roles", inline=False)
+    embedVar.add_field(name="help", value="Displays this help message", inline=False)
     await msg.channel.send(embed=embedVar)
+    return True
 
 async def ping(msg, args):
     await msg.channel.send('Pong!')
@@ -110,12 +121,16 @@ async def uptime(msg, args):
     uptime = currentTime - startTime
     # TODO: for next meeting, convert time into a more readable measurement
     await msg.channel.send(
-        f"The bot has been active for {uptime} seconds")
+        f"The bot has been active for {round(uptime,2)} seconds")
     return True
 
-
 async def dm(msg, args):
-    await msg.author.send("Your message goes here")
+    if not args:
+        await msg.author.send("Your message goes here")
+    else:
+        # await msg.author.send(args)
+        await msg.author.send(msg.content[3:])
+    return True
 
 async def embed(msg, args):
     embedVar = discord.Embed(title="Title", description="Desc", color=0x00ff00)
@@ -133,18 +148,22 @@ async def react(msg, args):
     # TODO: show custom emoji querying for next week
     return False # did this for effect :)
 
+# @client.command(pass_context=True)
+async def roles(msg, args):
+    print(len(args))
+    if len(args) == 0:
+        msg.channel.send(", ".join([str(r.id) for r in msg.guild.roles]))
+    return True # might want to implement something to detect if the different operations failed or had errors
 
 # https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.add_roles
 async def addrole(ctx, role : discord.Role, user : discord.Member):
     await user.add_roles(role)
-    await ctx.send(f"Gave {role.mention} to {user.mention}.") 
-    
-async def roles(msg, args):
-    print(", ".join([str(r.id) for r in ctx.guild.roles]))
+    await ctx.send(f"Gave {role.mention} to {user.mention}.")
 
 async def removerole(ctx, role :discord.Role, user : discord.Member):
     await user.remove_roles(role)
     await ctx.send(f"Removed {role.mention} from {user.mention}.") 
+
 
 #################################
 ### Save these for the future ###
@@ -180,13 +199,12 @@ async def ban(msg, args):
 
 commandsList = {
     'ping': ping,  # Pong!
-    'uptime': uptime,  # tells you the bot's uptime
     'failed': failed, # Used to test the command system
+    'uptime': uptime,  # tells you the bot's uptime
     'dm': dm,  # sends you a DM
     'embed': embed,  # sends you an "embed"
     'react': react,  # reacts to your message
     'roles': roles,  # list roles, add role, remove role
-    'addrole': addrole, # add role
     'help' : helpcommand,
 }
 client.run(config.token)

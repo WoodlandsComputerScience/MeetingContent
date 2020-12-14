@@ -4,8 +4,9 @@ import platform
 import sys
 import re
 import timeit
+from collections import Counter
 
-# Import our config file
+#Import our config file
 if not os.path.isfile("config.py"):
     sys.exit("'config.py' not found :(")
 
@@ -91,10 +92,11 @@ async def on_message(msg: discord.Message):
                 # Parameters:  emoji (Union[Emoji, Reaction, PartialEmoji, str]) 
                 # Where to find ascii emojis: https://emojipedia.org/
 
-async def help(msg, args):
-    # Return an embed
-    return True
-
+async def helpcommand(msg, args):
+    embedVar = discord.Embed(title="Title", description="Test", color=0x00ff00)
+    embedVar.add_field(name="Field1", value="help1", inline=False)
+    embedVar.add_field(name="Field2", value="help2", inline=False)
+    await msg.channel.send(embed=embedVar)
 
 async def ping(msg, args):
     await msg.channel.send('Pong!')
@@ -113,11 +115,13 @@ async def uptime(msg, args):
 
 
 async def dm(msg, args):
-    return True
-
+    await msg.author.send("Your message goes here")
 
 async def embed(msg, args):
-    return True
+    embedVar = discord.Embed(title="Title", description="Desc", color=0x00ff00)
+    embedVar.add_field(name="Field1", value=msg, inline=False)
+    embedVar.add_field(name="Field2", value="hi2", inline=False)
+    await msg.channel.send(embed=embedVar)
 
 
 async def react(msg, args):
@@ -131,9 +135,16 @@ async def react(msg, args):
 
 
 # https://discordpy.readthedocs.io/en/latest/api.html#discord.Member.add_roles
+async def addrole(ctx, role : discord.Role, user : discord.Member):
+    await user.add_roles(role)
+    await ctx.send(f"Gave {role.mention} to {user.mention}.") 
+    
 async def roles(msg, args):
-    return True
+    print(", ".join([str(r.id) for r in ctx.guild.roles]))
 
+async def removerole(ctx, role :discord.Role, user : discord.Member):
+    await user.remove_roles(role)
+    await ctx.send(f"Removed {role.mention} from {user.mention}.") 
 
 #################################
 ### Save these for the future ###
@@ -175,5 +186,7 @@ commandsList = {
     'embed': embed,  # sends you an "embed"
     'react': react,  # reacts to your message
     'roles': roles,  # list roles, add role, remove role
+    'addrole': addrole, # add role
+    'help' : helpcommand,
 }
 client.run(config.token)

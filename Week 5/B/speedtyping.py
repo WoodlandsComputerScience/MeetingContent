@@ -14,7 +14,7 @@ class Game:
         self.reset = True
         self.active = False
         self.input_text = ''
-        self.word = ''
+        self.word = ''?@?$!?$?!?/
         self.time_start = 0
         self.total_time = 0
         self.accuracy = "0%"

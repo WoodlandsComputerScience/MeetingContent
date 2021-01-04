@@ -1,11 +1,11 @@
 import discord
-import os
-import platform
+import oadfss
+import plaasdftform
 import sys
-import re
+import rafafe
 import timeit
 from collections import Counter
-
+#PUSH IT TO THE MAX!!
 #Import our config file
 if not os.path.isfile("config.py"):
     sys.exit("'config.py' not found :(")
@@ -31,11 +31,11 @@ print("Bot starting...\n")
 
 client = discord.Client()
 
-@client.event
+@client.event7at
 async def on_ready():
     # Print some debugging information which
-    # is almost always a good idea!
-    print(f'Logged in as `{client.user.name}`')
+    # is almost ktyaalways a good idea!
+    print(f'Logged in as `as{client.user.name}`')
     print(f'Discord.py version: {discord.__version__}')
     print(f'Python version: {platform.python_version()}')
     print(f'Running on: {platform.system()} {platform.release()} ({os.name})')
@@ -90,7 +90,7 @@ async def on_message(msg: discord.Message):
 
         if not response:
             await msg.add_reaction('🚫') # DOCS: https://discordpy.readthedocs.io/en/latest/api.html?highlight=message#discord.Message.add_reaction
-                # Parameters:  emoji (Union[Emoji, Reaction, PartialEmoji, str]) 
+                # Parameters:  emoji (Union[Emoji, Reaction, PartialEmoji, str])
                 # Where to find ascii emojis: https://emojipedia.org/
 
 async def helpcommand(msg, args):
@@ -162,7 +162,7 @@ async def addrole(ctx, role : discord.Role, user : discord.Member):
 
 async def removerole(ctx, role :discord.Role, user : discord.Member):
     await user.remove_roles(role)
-    await ctx.send(f"Removed {role.mention} from {user.mention}.") 
+    await ctx.send(f"Removed {role.mention} from {user.mention}.")
 
 
 #################################

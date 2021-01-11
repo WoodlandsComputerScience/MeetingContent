@@ -1,5 +1,7 @@
 # Meeting Content
 
+![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=wcs-meeting-content-visitors&color=232323&style=for-the-badge&logo=Github)
+
 *A collection of code snippets and record of topics covered during the meeting sessions.*
 
 ## Meeting Topics

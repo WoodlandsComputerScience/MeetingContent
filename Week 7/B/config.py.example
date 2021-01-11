@@ -1,8 +1,0 @@
-# Replace with your OWN token here:
-token = ''
-
-# Command Prefix
-prefix = '!'
-
-# Current version of the bot!
-version = '0.0.0'

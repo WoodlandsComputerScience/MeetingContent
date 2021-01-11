@@ -1,0 +1,230 @@
+h2, p, a, li{
+	color: black;
+	font-family: 'Merriweather', Georgia; /* Merriweather is custom Google font */
+}
+h1{
+	color: black;
+	font-family: Georgia;
+	font-size: 45px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 0;
+	text-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+h2{
+	font-size: 22px;
+	text-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+}
+nav{
+	text-align: center;
+	margin: 25px;
+}
+body{
+	background-image: url("../images/background.jpg");
+}
+p, a, li{
+	font-size: 19px;
+	line-height: 1.5;
+	text-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+header, footer, nav a{
+	border-radius: 100px; /* they are fully rounded */
+}
+nav a
+{
+	width:19%;
+	height:45px;
+	background-color: rgb(52,199,89,0.6);
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	font-size:22px;
+	padding-top:13px;
+	margin: 0px 10px;
+	border: 3px solid rgb(0,0,0,0.6);
+	box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+}
+nav a:hover{
+	background-color: rgb(2,59,9,0.7);
+	color:white;
+	box-shadow: 0px 0px 15px rgb(255,255,255,0.4);
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+img{
+	border-radius: 45px;
+	margin: 15px auto;
+	box-shadow: 0px 0px 25px rgb(0,0,0,0.8);
+    width: 50%;
+	overflow: auto;
+}
+.galleryframe{
+	display: table;
+	margin: 25px;
+	width: 20%;
+	height: 50%;
+	float: right;
+	text-align: center
+}
+.gallery{
+	width: 100%;
+	border-radius: 15px;
+	border: solid 3px rgb(255,255,255,0.8);
+	height: 170px;
+	object-fit: cover;
+	float: right;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+}
+.gallery:hover{
+	box-shadow: 0px 0px 25px rgb(255,255,255,0.8);
+	border: solid 3px rgb(0,0,0,0.8);
+}
+.dropshadow{
+	margin: 35px;
+	box-shadow: 0px 0px 25px rgb(0,0,0,0.8);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 10px;
+}
+header, footer{
+	background-color: rgb(52,199,89,0.6);
+	height: 60px;
+	width: 90%;
+	border: 3px solid rgb(0,0,0,0.6);
+	margin: 25px auto 0;
+	box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+}
+footer{
+	height: 50px;
+	margin-bottom: 25px;
+}
+footer h1{
+	font-weight: normal;
+	font-size: 25px;
+	padding-top: 11px;
+}
+.selected{
+	font-weight: bold;
+}
+.lowwidth{
+	width: 85%;
+}
+.automargin{
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	overflow: visible;
+}
+.leftsection{
+	width: 45%;
+	text-align: center;
+	float:left;
+}
+.rightsection{
+	width: 45%;
+	text-align: center;
+	float:right;
+}
+.leftsectionlarger{
+	width: 50%;
+	text-align: center;
+	float:left;
+}
+.rightsectionlarger{
+	width: 50%;
+	text-align: center;
+	float:right;
+}
+.transparentdropfilter{
+	filter: drop-shadow(0px 0px 15px rgb(0,0,0,0.6));
+	box-shadow: none;
+	border-radius: 0;
+	width: 40%;
+}
+/*
+Unused
+.logo{
+	filter: drop-shadow(0px 0px 45px rgb(0,0,0,1));
+	text-shadow: 0px 0px 200px #FFF;
+	box-shadow: none;
+	border-radius: 0;
+	width: 5%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+*/
+.center{
+	clear: both; /* otherwise, image will not be properly centered due to floating elements. */
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+label{
+	font-family: 'Merriweather', Georgia; /* Merriweather is custom Google font */
+	font-size: 24px;
+	text-decoration: underline;
+}
+input[type=text]{
+	font-family: 'Merriweather', Georgia; /* Merriweather is custom Google font */
+	font-size: 24px;
+	width: 500px;
+	height: 30px;
+	margin: 10px 5px 20px 5px;
+	padding:10px 25px;
+	border: 3px solid rgb(0,0,0,0.6);
+	border-radius: 100px;
+	box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+	background-color: rgb(255,255,255,0.6);
+}
+textarea{
+	font-family: 'Merriweather', Georgia; /* Merriweather is custom Google font */
+	font-size: 24px;
+	width: 400px;
+	height: 300px;
+	margin: 10px 5px 20px 5px;
+	padding: 20px;
+	border: 3px solid rgb(0,0,0,0.6);
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+	background-color: rgb(255,255,255,0.6);
+	resize: none;
+}
+input[type=submit]{
+	font-family: 'Merriweather', Georgia; /* Merriweather is custom Google font */
+	font-size: 24px;
+	width: 400px;
+	height: 60px;
+	margin: 30px 5px 20px 5px;
+	border: 3px solid rgb(0,0,0,0.6);
+	border-radius: 100px;
+	box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+	background-color: rgb(55,155,255,0.8);
+	cursor: pointer;
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+}
+input[type=submit]:hover{
+	background-color: rgb(12,19,59,0.8);
+	color:white;
+	box-shadow: 0px 0px 15px rgb(255,255,255,1);
+}
+.awesomeicon{
+	font-size: 85px;
+	margin: 15px 50px;
+	text-shadow: 0px 0px 25px rgb(0,0,0,0.3);
+}
+#divider{
+	display: inline;
+	font-size: 85px;
+	color: rgb(0,0,0,0.6);
+	position:relative;
+    top:-11px;
+}

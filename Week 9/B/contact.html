@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us!</title>
+		<meta name="keywords" content="html, css, hyper text markup language, cascading style sheets, web design, web development, programming, tutorials, guides, contact form, contact, google maps, phone">
+		<meta name="description" content="Max's Website - Contact for whatever web development needs you may have.">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/b2b4284cda.js"></script>
+		<link rel="icon" href="images/icon.ico">
+	</head>
+	<body>
+		<header>
+			<h1>Contact Us!</h1>
+		</header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="htmlguide.html">HTML / CSS Guide</a>
+			<a class="selected" href="contact.html">Contact</a>
+		</nav>
+		<main>
+			<h2><u>Contact Us!</u></h2>
+			<p>We can help you build your website!</p>
+			<div class="lowwidth center">
+				<form name="contact" id="contact" action="formdata.php" method="post">
+					<label>Full Name: </label><br>
+					<input type="text" name="fullname" id="fullname"><br>
+					<label>Email: </label><br>
+					<input type="text" name="email" id="email"><br>
+					<label>Phone #: </label><br>
+					<input type="text" name="phone" id="phone"><br>
+					<label>Message: </label><br>
+					<textarea name="message" id="message" placeholder="Type your message here..."></textarea><br>
+					<input type="submit" name="submit" id="submit" value="Submit">
+				</form>
+			</div>
+			<iframe class="dropshadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.1790586959532!2d-79.64681939319652!3d43.59104855401105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb67ca8a29007a66!2sSheridan+College+-+Hazel+McCallion+Campus!5e0!3m2!1sen!2sca!4v1563989213711!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="center">
+				<img src="images/contact.jpg" alt="Guy making phone call">
+			</div>
+			<div class="center">
+				<!-- font awesome icons. placeholder links for now -->
+				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square awesomeicon" style="color: #3b5998;"></i><div id="divider"></a>|</div>
+				<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter awesomeicon" style="color: #00aced;"></i><div id="divider"></a>|</div>
+				<a href="https://youtube.com" target="_blank"><i class="fab fa-youtube awesomeicon" style="color: #ff0000;"></i><div id="divider"></a>|</div>
+				<a href="https://github.com" target="_blank"><i class="fab fa-github awesomeicon" style="color: #24292e;"></i><div id="divider"></a>|</div>
+				<a href="https://discordapp.com" target="_blank"><i class="fab fa-discord awesomeicon" style="color: #556787;"></i></a>
+			</div>
+		</main>
+		<footer class="center">
+			<h1>&copy Max Liu 2021.</h1>
+		</footer>
+	</body>
+</html>

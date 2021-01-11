@@ -8,6 +8,8 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|January 11, 2021| Number Theory | Web Dev |
+|January 4, 2021| GIT Lesson | w/ Group A |
 |December 7, 2020| more graph theory, DFS, BFS | **discord.py** bot! |
 |November 30, 2020| recursion 2 + intro to graph theory | pygame 2 |
 |November 23, 2020| recursion | pygame |
@@ -22,6 +24,5 @@
 
 *Topics we may cover in the future weeks. Please let us known if you have any suggestions.*
 
-- How to use Git
-- Web Dev
 - Web Scraping
+- **WE DESPARATELY NEED MORE TOPICS!!!!! Please send PULL REQUESTS**

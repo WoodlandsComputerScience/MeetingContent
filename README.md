@@ -8,6 +8,8 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|January 25, 2021| Ad Hoc | Web Dev 2 |
+|January 18, 2021| Dynamic Programming | GNU/Linux |
 |January 11, 2021| Number Theory | Web Dev |
 |January 4, 2021| GIT Lesson | w/ Group A |
 |December 7, 2020| more graph theory, DFS, BFS | **discord.py** bot! |

@@ -1,0 +1,21 @@
+{
+  "name": "wscbot2",
+  "version": "0.0.0",
+  "description": "A new bot for the WCS server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "woodlands",
+    "computer",
+    "science",
+    "club",
+    "discord.js",
+    "docker"
+  ],
+  "author": "2020-2021 Group B Execs",
+  "license": "MIT"
+}

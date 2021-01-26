@@ -1,0 +1,12 @@
+{
+    "token": "",
+    "prefix": "!",
+    "roles": {
+        "a": "",
+        "b": ""
+    },
+    "channels": {
+        "log": "",
+        "suggestions": ""
+    }
+}

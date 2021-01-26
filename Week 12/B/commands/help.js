@@ -5,7 +5,7 @@ const bot = require('../bot')
 
 module.exports = class HelpCommand extends Command {
     getAliases() {
-        return ["help", "h", "heelp", "hlep", ""];
+        return ['help', 'h', 'heelp', 'hlep', 'hlpe', ''];
     }
 
     // TODO: make an `aliases` command
@@ -20,13 +20,19 @@ module.exports = class HelpCommand extends Command {
         }
 
         for (const command of x) { // just can't think of a better name...
-            if (!command && !hm.has(command)) continue; // skip the command if it isn't found
+            const qry = hm[command]
+            if (qry == undefined || qry == '') continue; // skip the command if it isn't found
             embed.addField(
                 `**${command}**`,
-                `*${hm[command]}*`,
+                `*${qry}*`,
             )
         }
+        if (embed.fields.length == 0) // you don't need brackets if the statement only needs to affect one line
+            embed.addField('\u200b', '*No commands found...*')
+
         msg.reply(embed)
+
+        return true
     }
 
     getEmbed() {
@@ -41,12 +47,6 @@ module.exports = class HelpCommand extends Command {
             .setURL('https://github.com/WoodlandsComputerScience')
 
         return embed
-    }
-
-    qryCommand(command) {
-        // Query a command's help message
-        const qry = commands.helpMap[args[0]]
-        return true;
     }
 
     getHelp() { // notice the how the ' was "escaped"

@@ -21,6 +21,7 @@ api.once('ready', () => {
     console.log(`The current version is "${version}"`)
     console.log(`Prefix is "${prefix}"`)
     console.log('========================================')
+    commands.init();
 
     api.user.setActivity(`${config.prefix}help | v${version}`,
         { type: 'WATCHING' });

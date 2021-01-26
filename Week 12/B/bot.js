@@ -55,3 +55,5 @@ api.on('disconnect', () => {
 console.log('WCSBot2 is authenticating with Discord...\n')
 
 api.login(TOKEN);
+
+module.exports = api

@@ -1,7 +1,7 @@
 const config = require('./config.json')
 
-const commandMap = {}
-const helpMap = {}
+const commandMap = new Map()
+const helpMap = new Map()
 
 function parseCommand(msg) {
     // Split commands into sections
@@ -9,11 +9,11 @@ function parseCommand(msg) {
     // The first "arg" is the command
     const cmd = args.shift().toLowerCase();
 
-    // Lookup to
-    const search = commandMap[cmd]
+    // Lookup a command from the HashMap --> O(1)
+    const qry = commandMap[cmd]
 
-    if (search) {
-        search.exec(msg, args)
+    if (qry) {
+        qry.exec(msg, args)
     } else {
         // Do this if none of the above commands are correct...
         msg.reply('Command not found...')
@@ -33,11 +33,12 @@ function init() {
 function registerCommand(command) {
     const c = require(`./commands/${command}`)
     const o = new c()
-    o.getAliases().forEach(alias => {
+    const aliases = o.getAliases()
+    aliases.forEach(alias => {
         alias = alias.toLowerCase()
         commandMap[alias] = o
-        helpMap[alias] = o.getHelp()
     });
+    helpMap[aliases[0]] = o.getHelp()
 }
 
 // ES5 exports (since this isn't ES6)

@@ -15,7 +15,7 @@ class LeaveCommand extends Command {
             case 'A':
             case 'B':
                 const member = msg.member
-                const roleID = config.roles[group]
+                const roleID = config.roles[group.toLowerCase()]
                 if (!Roles.has(member, roleID))
                     msg.reply(`You **already** *left* __**Group ${group.toUpperCase()}**__`), msg.react('👎');
                 else {
@@ -23,7 +23,7 @@ class LeaveCommand extends Command {
                     if (res) {
                         msg.react('👍')
                         msg.reply(`You have been *removed* from **Group ${group.toUpperCase()}** role`)
-                        console.log(`${msg.member.tag} was removed the Group ${group.toUpperCase()} role`)
+                        console.log(`${msg.member.user.tag} was removed the Group ${group.toUpperCase()} role`)
                     } else { return false }
                 }
                 break

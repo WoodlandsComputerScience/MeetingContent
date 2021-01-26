@@ -15,7 +15,7 @@ class JoinCommand extends Command {
             case 'A':
             case 'B':
                 const member = msg.member
-                const roleID = config.roles[group]
+                const roleID = config.roles[group.toLowerCase()]
                 if (Roles.has(member, roleID))
                     msg.reply(`You **already** *are* in __**Group ${group.toUpperCase()}**__`), msg.react('👎'); // <-- seems super illegal but totally works
                 else { // yes you could mix these

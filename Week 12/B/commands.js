@@ -31,6 +31,7 @@ function init() {
     registerCommand('help')
     registerCommand('suggest')
     registerCommand('join')
+    registerCommand('leave')
     console.log(commandMap)
     console.log(helpMap)
 }

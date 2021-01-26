@@ -2,6 +2,7 @@ const config = require('./config.json')
 
 const commandMap = new Map()
 const helpMap = new Map()
+const helpCommands = new Array()
 
 function parseCommand(msg) {
     // Split commands into sections
@@ -37,13 +38,16 @@ function registerCommand(command) {
     aliases.forEach(alias => {
         alias = alias.toLowerCase()
         commandMap[alias] = o
+        helpMap[alias] = o.getHelp()
     });
-    helpMap[aliases[0]] = o.getHelp()
+    helpCommands.push(aliases[0])
 }
 
 // ES5 exports (since this isn't ES6)
 module.exports = {
+    commandMap: commandMap,
     helpMap: helpMap,
+    helpCommands: helpCommands,
     init: init,
     parse: parseCommand,
 }

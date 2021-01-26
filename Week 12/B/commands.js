@@ -4,7 +4,7 @@ const commandMap = new Map()
 const helpMap = new Map()
 const helpCommands = new Array()
 
-function parseCommand(msg) {
+async function parseCommand(msg) {
     // Split commands into sections
     const args = msg.content.slice(config.prefix.length).split(/ +/);
     // The first "arg" is the command
@@ -14,7 +14,11 @@ function parseCommand(msg) {
     const qry = commandMap[cmd]
 
     if (qry) {
-        qry.exec(msg, args)
+        const res = await qry.exec(msg, args)
+        if (!res) {
+            msg.reply('There were some problems running your command...')
+            msg.react('❌')
+        }
     } else {
         // Do this if none of the above commands are correct...
         msg.reply('Command not found...')
@@ -25,6 +29,8 @@ function parseCommand(msg) {
 
 function init() {
     registerCommand('help')
+    registerCommand('suggest')
+    registerCommand('join')
     console.log(commandMap)
     console.log(helpMap)
 }

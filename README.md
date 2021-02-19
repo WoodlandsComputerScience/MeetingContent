@@ -8,7 +8,7 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|February 15, 2021| ⁉️ | 🖥️ GNU/Linux servers, Containers and Hyper-Converged Deployments |
+|February 22, 2021| 🙏 CCC group therapy session (+ problem takeup) | 🖥️ GNU/Linux servers, Containers and Hyper-Converged Deployments |
 |February 1, 2021| 🧳 Dynamic Programming - Knapsack Problem | 🤖 Making a Discord.js bot |
 |January 25, 2021| 🤡 Ad Hoc | 🪟 Web Dev 2 |
 |January 18, 2021| 📚 Dynamic Programming | 🐧 GNU/Linux |

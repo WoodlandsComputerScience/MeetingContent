@@ -1,0 +1,13 @@
+Resources for Week 14:
+
+Presentation:
+https://docs.google.com/presentation/d/1ismHW7XJBVkANzK40HhlNyHw6Bhj82MMBwDR6z3draY/edit#slide=id.p
+
+Further Reading:
+https://github.com/Kavex/GameDev-Resources#graphicsmodeling-tutorials
+http://gameprogrammingpatterns.com/contents.html****
+https://www.dataorienteddesign.com/dodbook/
+
+I highly suggest you check out game programming patterns
+Easy to understand + highly informative
+- DS

@@ -8,6 +8,8 @@
 
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|March 22, 2021| 📜 VIM w/ [Daniel Sun](https://github.com/dandancool) | <------------- |
+|March 15, 2021| 🔵🔴 disjoint set | 🐃 GNU/Linux Operating Systems for Daily Use |
 |March 1, 2021| 🎮 coding games (clash of code + binarysearch.io) | ✨ Guest Talk on "Supercharge Your Computer Programs" with [Daniel Sun](https://github.com/dandancool) |
 |February 22, 2021| 🙏 CCC group therapy session (+ problem takeup) | 🖥️ GNU/Linux servers, Containers and Hyper-Converged Deployments |
 |February 1, 2021| 🧳 Dynamic Programming - Knapsack Problem | 🤖 Making a Discord.js bot |

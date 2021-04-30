@@ -5,10 +5,11 @@
 *A collection of code snippets and record of topics covered during the meeting sessions.*
 
 ## Meeting Topics
-
+<!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|April 19, 2021| 🦾 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) bot | <------------- |
+|April 30, 2021| -------------> | 🔥 Interview with **UW 🎓 CS student [Raymond Li](https://github.com/Raymo111)** 🐬 |
+|April 21, 2021| 🦾 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) bot | <------------- |
 |March 29, 2021| -------------> | 🏁 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) w/ Pygame and Vim |
 |March 22, 2021| 📜 VIM w/ [Daniel Sun](https://github.com/dandancool) | <------------- |
 |March 15, 2021| 🔵🔴 disjoint set | 🐃 GNU/Linux Operating Systems for Daily Use |

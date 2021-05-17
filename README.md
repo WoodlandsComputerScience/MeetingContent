@@ -8,6 +8,7 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|May 16, 2021| -------------> | *️⃣ Cryptography |
 |May 12, 2021| 🥣 [Beautiful Soup Web Scraper](https://github.com/WoodlandsComputerScience/Web-Scrape-Example) | <------------- |
 |April 30, 2021| -------------> | 🔥 Interview with **UW 🎓 CS student [Raymond Li](https://github.com/Raymo111)** 🐬 |
 |April 21, 2021| 🦾 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) bot | <------------- |

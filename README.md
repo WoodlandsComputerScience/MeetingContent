@@ -1,10 +1,14 @@
 # Meeting Content
 
-![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=wcs-meeting-content-visitors&color=232323&style=for-the-badge&logo=Github)
+![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=wcs-meeting-content-visitors&color=00a000&style=for-the-badge&logo=Github)
 
-*A collection of code snippets and record of topics covered during the meeting sessions.*
+*A collection of code snippets and topics covered during meetings.*
 
 ## Meeting Topics
+
+*Here is a list of topics that we have covered in past meetings. Please let us know if you have any suggestions for future topics!*
+
+### 2020/2021
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
@@ -29,13 +33,4 @@
 |November 9, 2020| ↔️ binary searching | 📋 functions, list, dictionaries, and how to work with files |
 |October 26, 2020| ✏️ implementation problems | 📉 functions |
 |October 19, 2020| 🅾️ complexity analysis, PSA, Difference Arrays | 🥺 setting up working environment, basic Python syntax, review |
-|October 5, 2020| 👋 Club Introduction, overview of terminology, sets and stacks | *same as Group A* |
-
-
-
-## Future Topics
-
-*Topics we may cover in the future weeks. Please let us known if you have any suggestions.*
-
-- Web Scraping
-- **WE DESPARATELY NEED MORE TOPICS!!!!! Please send PULL REQUESTS**
+|October 5, 2020| 👋 Club Introduction, overview of terminology, sets and stacks | <------------- |

@@ -1,6 +1,6 @@
 [submodule "Week 12/B"]
-	path = Week 12/B
+	path = 2020-2021/Week 12/B
 	url = https://github.com/WoodlandsComputerScience/WCSBot2
 [submodule "Week 20"]
-	path = Week 20
+	path = 2020-2021/Week 20
 	url = https://github.com/WoodlandsComputerScience/Web-Scrape-Example

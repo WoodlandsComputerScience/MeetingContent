@@ -12,6 +12,7 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|June 8, 2021| 🏆 TWSS WCS Contest | <------------- |
 |May 31, 2021| 📓 WCS Contest Prep Day | <------------- |
 |May 16, 2021| -------------> | *️⃣ Cryptography |
 |May 12, 2021| 🥣 [Beautiful Soup Web Scraper](https://github.com/WoodlandsComputerScience/Web-Scrape-Example) | <------------- |

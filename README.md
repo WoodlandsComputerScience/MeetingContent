@@ -1,6 +1,6 @@
 # Meeting Content
 
-![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=wcs-meeting-content-visitors&color=00a000&style=for-the-badge&logo=Github)
+![](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=wcs-meeting-content-visitors&color=00a000&lcolor=&text=&style=for-the-badge&logo=Github&custom=CNT%20Visitors&cache=on)
 
 *A collection of code snippets and topics covered during meetings.*
 

@@ -12,6 +12,7 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|June 14, 2021| ✍️ WCS Contest Question Takeup | <------------- |
 |June 8, 2021| 🏆 TWSS WCS Contest | <------------- |
 |May 31, 2021| 📓 WCS Contest Prep Day | <------------- |
 |May 16, 2021| -------------> | *️⃣ Cryptography |

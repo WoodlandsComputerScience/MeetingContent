@@ -8,6 +8,12 @@
 
 *Here is a list of topics that we have covered in past meetings. Please let us know if you have any suggestions for future topics!*
 
+### 2021/2022
+<!-- https://emojipedia.org/ -->
+| Date | Group A | Group B |
+|:----:|:-------:|:-------:|
+|Sept 27, 2021| 🎉 First meeting of the year | <------------- |
+
 ### 2020/2021
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |

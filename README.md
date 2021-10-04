@@ -12,6 +12,7 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|Oct 4, 2021| 📚 Introduction to CS and WCS Club | <------------- |
 |Sept 27, 2021| 🎉 First meeting of the year | <------------- |
 
 ### 2020/2021

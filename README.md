@@ -12,11 +12,12 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Oct 18, 2021| ✨ Programming Basics in Python | <------------- ⃰ |
+|Oct 18, 2021| ✨ Programming Basics in Python \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/17/lesson-1.html)**\] \[**[PRESENTATION](https://docs.google.com/presentation/d/12urvOd4CdWhPrb4dziTQdQ0IUgqIpcCW9O7teTTv97E/edit?usp=sharing)**\] | <------------- ⃰ |
 |Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club |
 |Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ |
 
 ⃰ *arrows refer to no Group A/B split for the day*
+Note: Starting with new 2021/2022 meetings, there will most likely be an accompanying lesson
 
 ### 2020/2021
 <!-- https://emojipedia.org/ -->

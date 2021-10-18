@@ -12,8 +12,11 @@
 <!-- https://emojipedia.org/ -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Oct 4, 2021| 📚 Introduction to CS and WCS Club | <------------- |
-|Sept 27, 2021| 🎉 First meeting of the year | <------------- |
+|Oct 18, 2021| ✨ Programming Basics in Python | <------------- ⃰ |
+|Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club |
+|Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ |
+
+⃰ *arrows refer to no Group A/B split for the day*
 
 ### 2020/2021
 <!-- https://emojipedia.org/ -->

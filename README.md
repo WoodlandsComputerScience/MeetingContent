@@ -13,7 +13,7 @@
 <!-- \[**[LESSON](comingsoon.example)**\] \[**[PRESENTATION](comingsoon.example)**\] -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Oct 25, 2021| -------------> ⃰ | 🔁 Loops and Basic Data Structures \[**[LESSON](comingsoon.example)**\] \[**[PRESENTATION](comingsoon.example)**\] |
+|Oct 25, 2021| -------------> ⃰ | 🔁 Loops and Basic Data Structures \[**[LESSON](https://woodlands.codes/group-a/2021/10/23/lesson-2.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1aKbvxjxs9vpj0fpPK9uKJAMg2G-Fc6ELJyDZho9_tJ4/edit?usp=sharing)**\] |
 |Oct 18, 2021| ✨ Programming Basics in Python \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/17/lesson-1.html)**\] \[**[PRESENTATION](https://docs.google.com/presentation/d/12urvOd4CdWhPrb4dziTQdQ0IUgqIpcCW9O7teTTv97E/edit?usp=sharing)**\] | <------------- ⃰ |
 |Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club |
 |Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ |

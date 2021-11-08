@@ -14,7 +14,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Nov 8, 2021| --- | 🧑‍💻 Intro to Software Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/04/lesson-4.html)**\] |
+|Nov 8, 2021| ⛳ Intro to CP \[**[PRESENTATION](https://docs.google.com/presentation/d/1eS-lxocEa-U6mJMGZtbZvgE3gL6vcnLW1RFARamvJfs/edit?usp=sharing)**\] | 🧑‍💻 Intro to Software Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/04/lesson-4.html)**\] |
 |Nov 1, 2021| 🧱 Functions and OOP \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/11/01/lesson-3.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1q_tvtd2422gJFqQ2y3P0ENGRsfu5QHNdPjT_tv3edWU/edit?usp=sharing)**\] | <------------- ⃰ |
 |Oct 25, 2021| -------------> ⃰ | 🔁 Loops and Basic Data Structures \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/23/lesson-2.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1aKbvxjxs9vpj0fpPK9uKJAMg2G-Fc6ELJyDZho9_tJ4/edit?usp=sharing)**\] |
 |Oct 18, 2021| ✨ Programming Basics in Python \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/17/lesson-1.html)**\] \[**[PRESENTATION](https://docs.google.com/presentation/d/12urvOd4CdWhPrb4dziTQdQ0IUgqIpcCW9O7teTTv97E/edit?usp=sharing)**\] | <------------- ⃰ |

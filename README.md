@@ -23,7 +23,7 @@
 |Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club |
 |Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ |
 
-⃰ *arrows refer to no Group A/B split for the day*
+⃰ *arrows refer to no Group A/B split for the day*  
 Note: Starting with new 2021/2022 meetings, there will most likely be an accompanying lesson
 
 ### 2020/2021

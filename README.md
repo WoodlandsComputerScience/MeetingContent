@@ -4,6 +4,24 @@
 
 *A collection of code snippets and topics covered during meetings.*
 
+## Projects
+- **[Code Runner Discord Bot](https://github.com/Nathan13888/CodeRunnerBot)** *(Nathan13888/CodeRunnerBot)*
+- **[WCS Checkpoint](https://github.com/WoodlandsComputerScience/woodlands-checkpoint)** *(WoodlandsComputerScience/woodlands-checkpoint)*
+- **[Tic Tac Toe Game](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe)** *(WoodlandsComputerScience/Tic-Tac-Toe)*
+- **[WCSBot2 Discord Bot](https://github.com/WoodlandsComputerScience/WCSBot2)** *(WoodlandsComputerScience/WCSBot2)*
+
+## Presenters
+| Group A (Competitive Programming) | Group B (Software Development and New Technologies) |
+|:----:|:-------:|
+| **[Jeffrey-Kai](https://github.com/jeffreykaili)** | **[Nathan](https://github.com/Nathan13888)** |
+| **[Marcus](https://github.com/pidddgy)** | **[Max](https://github.com/maxliu42)** |
+| **[Raymond](https://github.com/maxliu42)** | **[Vishnu](https://github.com/vishnupsatish)** |
+
+## Guest Speakers
+- **[Vidhan Bhatt](https://github.com/vidhanio)**
+- **[Raymond Li](https://github.com/Raymo111)**
+- **[Daniel Sun](https://github.com/RaymondMei)**
+
 ## Meeting Topics
 
 *Here is a list of topics that we have covered in past meetings. Please let us know if you have any suggestions for future topics!*
@@ -15,7 +33,7 @@
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
 |Dec 13, 2021|  | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/12/13/group-b-lesson-9.html)**] |
-|Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/12/06/group-b-lesson-8.html)**] |
+|Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[PRESENTATION](https://woodlandscomputerscience.github.io/group-b/2021/12/06/group-b-lesson-8.html)**] |
 |Nov 29, 2021| 🔎 Binary Search \[**[PRESENTATION](https://docs.google.com/presentation/d/14xQGRPi9HIJHt-dZhY07bWdxSybACF_6Wb8jBY8Zy5U/edit?usp=sharing)**\] | 🔧 ***Discord Bot Series***: Developing First Prototype and Finding Improvements  [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/29/group-b-lesson-7.html)**] |
 |Nov 22, 2021| 🔣 Prefix Sum Arrays and taking Input \[**[PRESENTATION](https://docs.google.com/presentation/d/1joahZ7A0i0IAv_00pR1ERPhCOo2HDSMGpu_Ql1nubp8/edit)**\] | 📘 ***Discord Bot Series***: Project Planning and Getting Started [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/21/group-b-lesson-6.html)**] |
 |Nov 15, 2021| 🔨 Brute Force \[**[PRESENTATION](https://docs.google.com/presentation/d/1yJyxOei0kkWeNLt3CD7p_GtZOOsphKp4NnAAg98xP3I/edit?usp=sharing)**\] | 🕸️ Introduction to Web Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/14/group-b-lesson-5.html)**\] |

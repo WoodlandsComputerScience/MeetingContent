@@ -15,12 +15,12 @@
 |:----:|:-------:|
 | **[Jeffrey-Kai](https://github.com/jeffreykaili)** | **[Nathan](https://github.com/Nathan13888)** |
 | **[Marcus](https://github.com/pidddgy)** | **[Max](https://github.com/maxliu42)** |
-| **[Raymond](https://github.com/maxliu42)** | **[Vishnu](https://github.com/vishnupsatish)** |
+| **[Raymond](https://github.com/RaymondMei)** | **[Vishnu](https://github.com/vishnupsatish)** |
 
 ## Guest Speakers
 - **[Vidhan Bhatt](https://github.com/vidhanio)**
 - **[Raymond Li](https://github.com/Raymo111)**
-- **[Daniel Sun](https://github.com/RaymondMei)**
+- **[Daniel Sun](https://github.com/dandancool)**
 
 ## Meeting Topics
 

@@ -32,8 +32,8 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Jan 10, 2021|  | 📡 ***Website Series***: Web Development and Development Tools |
-|Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/12/13/group-b-lesson-9.html)**] |
+|Jan 10, 2021| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] |
+|Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** |
 |Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[PRESENTATION](/How%20do%20slash%20commands%20work_.pdf)**] [**[PRESENTATION 2](/How%20does%20GitHub%20work_.pdf)]** |
 |Nov 29, 2021| 🔎 Binary Search \[**[PRESENTATION](https://docs.google.com/presentation/d/14xQGRPi9HIJHt-dZhY07bWdxSybACF_6Wb8jBY8Zy5U/edit?usp=sharing)**\] | 🔧 ***Discord Bot Series***: Developing First Prototype and Finding Improvements  [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/29/group-b-lesson-7.html)**] |
 |Nov 22, 2021| 🔣 Prefix Sum Arrays and taking Input \[**[PRESENTATION](https://docs.google.com/presentation/d/1joahZ7A0i0IAv_00pR1ERPhCOo2HDSMGpu_Ql1nubp8/edit)**\] | 📘 ***Discord Bot Series***: Project Planning and Getting Started [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/21/group-b-lesson-6.html)**] |

@@ -32,6 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|Jan 31, 2021| 🌳 Graph Theory \[**[PRESENTATION](https://docs.google.com/presentation/d/1Pgq5VpnBc7eMfW6YfPfzkfPYRuseYfwgdYwACZoqEwA/edit?usp=sharing)**\] | 🧑‍🦱 ***Website Series***:  Improving your personal website using Bootstrap and GitHub Pages \[**[Demo Website](https://github.com/vishnupsatish/my-first-website)**\] |
 |Jan 10, 2021| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] |
 |Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** |
 |Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[PRESENTATION](/How%20do%20slash%20commands%20work_.pdf)**] [**[PRESENTATION 2](/How%20does%20GitHub%20work_.pdf)]** |

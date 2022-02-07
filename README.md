@@ -32,6 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
+|Feb 7, 2021| 📌 Dynamic Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1gni-UNkIEItHVniwNQbDBA19T1sPP3KqLVwpFW44tgI/edit?usp=sharing)**\]  | 📚 ***Website Series***:  "The Stack" w/ ***[Vidhan](https://github.com/vidhanio)*** \[**[API (TypeScript)](https://github.com/vidhanio/gizmos-typescript-server)**\]  \[**[API (Go)](https://github.com/vidhanio/gizmos-go-server)**\] |
 |Jan 31, 2021| 🌳 Graph Theory \[**[PRESENTATION](https://docs.google.com/presentation/d/1Pgq5VpnBc7eMfW6YfPfzkfPYRuseYfwgdYwACZoqEwA/edit?usp=sharing)**\] | 🧑‍🦱 ***Website Series***:  Improving your personal website using Bootstrap and GitHub Pages \[**[Demo Website](https://github.com/vishnupsatish/my-first-website)**\] |
 |Jan 10, 2021| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] |
 |Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** |

@@ -32,7 +32,11 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B |
 |:----:|:-------:|:-------:|
-|Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works and Cryptography \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |
+|Mar 14, 2022| 🌨️ **March Break** | <------------- ⃰ |
+|Mar 7, 2022| TBD | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |
+|Feb 28, 2022| 🧺 CCC Takeup | <------------- ⃰ |
+|Feb 21, 2022| 👪 **Family Day** | <------------- ⃰ |
+|Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] |
 |Feb 7, 2022| 📌 Dynamic Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1gni-UNkIEItHVniwNQbDBA19T1sPP3KqLVwpFW44tgI/edit?usp=sharing)**\]  | 📚 ***Website Series***:  "The Stack" w/ ***[Vidhan](https://github.com/vidhanio)*** \[**[API (TypeScript)](https://github.com/vidhanio/gizmos-typescript-server)**\]  \[**[API (Go)](https://github.com/vidhanio/gizmos-go-server)**\] |
 |Jan 31, 2022| 🌳 Graph Theory \[**[PRESENTATION](https://docs.google.com/presentation/d/1Pgq5VpnBc7eMfW6YfPfzkfPYRuseYfwgdYwACZoqEwA/edit?usp=sharing)**\] | 🧑‍🦱 ***Website Series***:  Improving your personal website using Bootstrap and GitHub Pages \[**[Demo Website](https://github.com/vishnupsatish/my-first-website)**\] |
 |Jan 10, 2022| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] |

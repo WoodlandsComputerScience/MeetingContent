@@ -34,7 +34,7 @@
 |:----:|:-------:|:-------:|
 |Mar 14, 2022| 🌨️ **March Break** | <------------- ⃰ |
 |Mar 7, 2022| TBD | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |
-|Feb 28, 2022| 🧺 CCC Takeup | <------------- ⃰ |
+|Feb 28, 2022| 🧺 CCC Takeup \[**[PRESENTATION](https://docs.google.com/presentation/d/19DkTbZOHNjocge5JeIAJ80tUOn26sY1M2mwQcxSNJ5I/edit)**\] | <------------- ⃰ |
 |Feb 21, 2022| 👪 **Family Day** | <------------- ⃰ |
 |Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] |
 |Feb 7, 2022| 📌 Dynamic Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1gni-UNkIEItHVniwNQbDBA19T1sPP3KqLVwpFW44tgI/edit?usp=sharing)**\]  | 📚 ***Website Series***:  "The Stack" w/ ***[Vidhan](https://github.com/vidhanio)*** \[**[API (TypeScript)](https://github.com/vidhanio/gizmos-typescript-server)**\]  \[**[API (Go)](https://github.com/vidhanio/gizmos-go-server)**\] |

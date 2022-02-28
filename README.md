@@ -57,29 +57,29 @@ Note: Starting with new 2021/2022 meetings, there will most likely be an accompa
 
 ### 2020/2021
 <!-- https://emojipedia.org/ -->
-| Date | Group A | Group B |
-|:----:|:-------:|:-------:|
-|June 14, 2021| ✍️ WCS Contest Question Takeup and End of Year Announcements | <------------- |
-|June 8, 2021| 🏆 TWSS WCS Contest | <------------- |
-|May 31, 2021| 📓 WCS Contest Prep Day | <------------- |
-|May 16, 2021| -------------> | *️⃣ Cryptography |
-|May 12, 2021| 🥣 [Beautiful Soup Web Scraper](https://github.com/WoodlandsComputerScience/Web-Scrape-Example) | <------------- |
-|April 30, 2021| -------------> | 🔥 Interview with **UW 🎓 CS student [Raymond Li](https://github.com/Raymo111)** 🐬 |
-|April 21, 2021| 🦾 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) bot | <------------- |
-|March 29, 2021| -------------> | 🏁 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) w/ Pygame and Vim |
-|March 22, 2021| 📜 VIM w/ [Daniel Sun](https://github.com/dandancool) | <------------- |
-|March 15, 2021| 🔵🔴 disjoint set | 🐃 GNU/Linux Operating Systems for Daily Use |
-|March 1, 2021| 🎮 coding games (clash of code + binarysearch.io) | ✨ Guest Talk on "Supercharge Your Computer Programs" with [Daniel Sun](https://github.com/dandancool) |
-|February 22, 2021| 🙏 CCC group therapy session (+ problem takeup) | 🖥️ GNU/Linux servers, Containers and Hyper-Converged Deployments |
-|February 1, 2021| 🧳 Dynamic Programming - Knapsack Problem | 🤖 Making a Discord.js bot |
-|January 25, 2021| 🤡 Ad Hoc | 🪟 Web Dev 2 |
-|January 18, 2021| 📚 Dynamic Programming | 🐧 GNU/Linux |
-|January 11, 2021| 🔢 Number Theory | 🌐 Web Dev |
-|January 4, 2021| 😼 GIT Lesson | 🙀 w/ Group A |
-|December 7, 2020| 📈 more graph theory, DFS, BFS | 🤖 **discord.py** bot! |
-|November 30, 2020| 🔁 recursion 2 + intro to graph theory | 🕹️ pygame 2 |
-|November 23, 2020| 🔁 recursion | 🐍 pygame |
-|November 9, 2020| ↔️ binary searching | 📋 functions, list, dictionaries, and how to work with files |
-|October 26, 2020| ✏️ implementation problems | 📉 functions |
-|October 19, 2020| 🅾️ complexity analysis, PSA, Difference Arrays | 🥺 setting up working environment, basic Python syntax, review |
-|October 5, 2020| 👋 Club Introduction, overview of terminology, sets and stacks | <------------- |
+| Date | Group A | Group B | Member Attendance (Excluding Speakers) |
+|:----:|:-------:|:-------:|:--------------------------------------:|
+|June 14, 2021| ✍️ WCS Contest Question Takeup and End of Year Announcements | <------------- | 10 |
+|June 8, 2021| 🏆 TWSS WCS Contest | <------------- | 10 |
+|May 31, 2021| 📓 WCS Contest Prep Day | <------------- | 19 |
+|May 16, 2021| -------------> | *️⃣ Cryptography | 17 |
+|May 12, 2021| 🥣 [Beautiful Soup Web Scraper](https://github.com/WoodlandsComputerScience/Web-Scrape-Example) | <------------- | 10 |
+|April 30, 2021| -------------> | 🔥 Interview with **UW 🎓 CS student [Raymond Li](https://github.com/Raymo111)** 🐬 | 18 |
+|April 21, 2021| 🦾 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) bot | <------------- | 10 |
+|March 29, 2021| -------------> | 🏁 [Tic-Tac-Toe](https://github.com/WoodlandsComputerScience/Tic-Tac-Toe) w/ Pygame and Vim | 30 |
+|March 22, 2021| 📜 VIM w/ [Daniel Sun](https://github.com/dandancool) | <------------- | 12 (9 + 3) |
+|March 15, 2021| 🔵🔴 disjoint set | 🐃 GNU/Linux Operating Systems for Daily Use | 12 (7 + 5) |
+|March 1, 2021| 🎮 coding games (clash of code + binarysearch.io) | ✨ Guest Talk on "Supercharge Your Computer Programs" with [Daniel Sun](https://github.com/dandancool) | 19 (9 + 10) |
+|February 22, 2021| 🙏 CCC group therapy session (+ problem takeup) | 🖥️ GNU/Linux servers, Containers and Hyper-Converged Deployments | 20 (11 + 9) |
+|February 1, 2021| 🧳 Dynamic Programming - Knapsack Problem | 🤖 Making a Discord.js bot | 26 (13 + 13) |
+|January 25, 2021| 🤡 Ad Hoc | 🪟 Web Dev 2 | 22 (11 + 11) |
+|January 18, 2021| 📚 Dynamic Programming | 🐧 GNU/Linux | 24 (12 + 12) |
+|January 11, 2021| 🔢 Number Theory | 🌐 Web Dev | 20 (10 + 10) |
+|January 4, 2021| 😼 GIT Lesson | 🙀 w/ Group A | 20 (10 + 10) |
+|December 7, 2020| 📈 more graph theory, DFS, BFS | 🤖 **discord.py** bot! | 20 (10 + 10) |
+|November 30, 2020| 🔁 recursion 2 + intro to graph theory | 🕹️ pygame 2 | 20 (10 + 10) |
+|November 23, 2020| 🔁 recursion | 🐍 pygame | 20 (10 + 10) |
+|November 9, 2020| ↔️ binary searching | 📋 functions, list, dictionaries, and how to work with files | *NA* |
+|October 26, 2020| ✏️ implementation problems | 📉 functions | *NA* |
+|October 19, 2020| 🅾️ complexity analysis, PSA, Difference Arrays | 🥺 setting up working environment, basic Python syntax, review | *NA* |
+|October 5, 2020| 👋 Club Introduction, overview of terminology, sets and stacks | <------------- | *NA* |

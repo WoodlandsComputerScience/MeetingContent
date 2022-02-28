@@ -30,27 +30,30 @@
 <!-- https://emojipedia.org/ -->
 <!-- \[**[LESSON](comingsoon.example)**\] \[**[PRESENTATION](comingsoon.example)**\] -->
 <!-- https://woodlandscomputerscience.github.io -->
-| Date | Group A | Group B |
-|:----:|:-------:|:-------:|
-|Mar 14, 2022| 🌨️ **March Break** | <------------- ⃰ |
-|Mar 7, 2022| TBD | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |
-|Feb 28, 2022| 🧺 CCC Takeup \[**[PRESENTATION](https://docs.google.com/presentation/d/19DkTbZOHNjocge5JeIAJ80tUOn26sY1M2mwQcxSNJ5I/edit)**\] | <------------- ⃰ |
-|Feb 21, 2022| 👪 **Family Day** | <------------- ⃰ |
-|Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] |
-|Feb 7, 2022| 📌 Dynamic Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1gni-UNkIEItHVniwNQbDBA19T1sPP3KqLVwpFW44tgI/edit?usp=sharing)**\]  | 📚 ***Website Series***:  "The Stack" w/ ***[Vidhan](https://github.com/vidhanio)*** \[**[API (TypeScript)](https://github.com/vidhanio/gizmos-typescript-server)**\]  \[**[API (Go)](https://github.com/vidhanio/gizmos-go-server)**\] |
-|Jan 31, 2022| 🌳 Graph Theory \[**[PRESENTATION](https://docs.google.com/presentation/d/1Pgq5VpnBc7eMfW6YfPfzkfPYRuseYfwgdYwACZoqEwA/edit?usp=sharing)**\] | 🧑‍🦱 ***Website Series***:  Improving your personal website using Bootstrap and GitHub Pages \[**[Demo Website](https://github.com/vishnupsatish/my-first-website)**\] |
-|Jan 10, 2022| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] |
-|Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** |
-|Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[PRESENTATION](/How%20do%20slash%20commands%20work_.pdf)**] [**[PRESENTATION 2](/How%20does%20GitHub%20work_.pdf)]** |
-|Nov 29, 2021| 🔎 Binary Search \[**[PRESENTATION](https://docs.google.com/presentation/d/14xQGRPi9HIJHt-dZhY07bWdxSybACF_6Wb8jBY8Zy5U/edit?usp=sharing)**\] | 🔧 ***Discord Bot Series***: Developing First Prototype and Finding Improvements  [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/29/group-b-lesson-7.html)**] |
-|Nov 22, 2021| 🔣 Prefix Sum Arrays and taking Input \[**[PRESENTATION](https://docs.google.com/presentation/d/1joahZ7A0i0IAv_00pR1ERPhCOo2HDSMGpu_Ql1nubp8/edit)**\] | 📘 ***Discord Bot Series***: Project Planning and Getting Started [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/21/group-b-lesson-6.html)**] |
-|Nov 15, 2021| 🔨 Brute Force \[**[PRESENTATION](https://docs.google.com/presentation/d/1yJyxOei0kkWeNLt3CD7p_GtZOOsphKp4NnAAg98xP3I/edit?usp=sharing)**\] | 🕸️ Introduction to Web Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/14/group-b-lesson-5.html)**\] |
-|Nov 8, 2021| ⛳ Intro to Contest Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1eS-lxocEa-U6mJMGZtbZvgE3gL6vcnLW1RFARamvJfs/edit?usp=sharing)**\] | 🧑‍💻 Intro to Software Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/04/lesson-4.html)**\] |
-|Nov 1, 2021| 🧱 Functions and OOP \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/11/01/lesson-3.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1q_tvtd2422gJFqQ2y3P0ENGRsfu5QHNdPjT_tv3edWU/edit?usp=sharing)**\] | <------------- ⃰ |
-|Oct 25, 2021| -------------> ⃰ | 🔁 Loops and Basic Data Structures \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/23/lesson-2.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1aKbvxjxs9vpj0fpPK9uKJAMg2G-Fc6ELJyDZho9_tJ4/edit?usp=sharing)**\] |
-|Oct 18, 2021| ✨ Programming Basics in Python \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/17/lesson-1.html)**\] \[**[PRESENTATION](https://docs.google.com/presentation/d/12urvOd4CdWhPrb4dziTQdQ0IUgqIpcCW9O7teTTv97E/edit?usp=sharing)**\] | <------------- ⃰ |
-|Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club |
-|Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ |
+| Date | Group A | Group B | Member Attendance (Excluding Speakers) |
+|:----:|:-------:|:-------:|:--------------------------------------:|
+|Mar 14, 2022| 🌨️ __***March Break***__ | <------------- ⃰ | <------------- ⃰ |
+|Mar 7, 2022| TBD | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |  |
+|Feb 28, 2022| 🧺 CCC Takeup \[**[PRESENTATION](https://docs.google.com/presentation/d/19DkTbZOHNjocge5JeIAJ80tUOn26sY1M2mwQcxSNJ5I/edit)**\] | <------------- ⃰ | 27 |
+|Feb 21, 2022| 👪 __***Family Day***__ | <------------- ⃰ | <------------- ⃰ |
+|Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] | 36 (26 + 10) |
+|Feb 7, 2022| 📌 Dynamic Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1gni-UNkIEItHVniwNQbDBA19T1sPP3KqLVwpFW44tgI/edit?usp=sharing)**\]  | 📚 ***Website Series***:  "The Stack" w/ ***[Vidhan](https://github.com/vidhanio)*** \[**[API (TypeScript)](https://github.com/vidhanio/gizmos-typescript-server)**\]  \[**[API (Go)](https://github.com/vidhanio/gizmos-go-server)**\] | 27 (16 + 11) |
+|Jan 31, 2022| 🌳 Graph Theory \[**[PRESENTATION](https://docs.google.com/presentation/d/1Pgq5VpnBc7eMfW6YfPfzkfPYRuseYfwgdYwACZoqEwA/edit?usp=sharing)**\] | 🧑‍🦱 ***Website Series***:  Improving your personal website using Bootstrap and GitHub Pages \[**[Demo Website](https://github.com/vishnupsatish/my-first-website)**\] | 26 (10 + 16) |
+|Jan 17, 2022| 📗 __***Semester 1 Exams***__ | <------------- ⃰ | <------------- ⃰ |
+|Jan 10, 2022| 🔁 Recursion  \[**[PRESENTATION](https://docs.google.com/presentation/d/18Q0MPe-dDav1SOpzmY6EU6BJpUC5n64kxRbTVqP5iog/edit)**\] | 📡 ***Website Series***: Intro to HTML/CSS [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2022/01/10/group-b-lesson-8.html)**] | 27 (15 + 12) |
+|Dec 20-31, 2022| ☃️ __***Winter Break***__ | <------------- ⃰ | <------------- ⃰ |
+|Dec 13, 2021| 🏆 TWSS WCS Contest 2 | ☁️ ***Discord Bot Series***: Deployment and Maintenance w/ ***[Vidhan](https://github.com/vidhanio)*** | 40 (20 + 20) |
+|Dec 6, 2021| 💪 Contest Preparation \[**[PRESENTATION](https://docs.google.com/presentation/d/1e7kbyKqC1LYM-Uhf8DI4A3FGETqeYSYv1ltqwmdo4c4/edit?usp=sharing)**\] | 🏗️ ***Discord Bot Series***: Finishing First Iteration and Further Testing w/ ***[Vidhan](https://github.com/vidhanio)*** [**[PRESENTATION](/How%20do%20slash%20commands%20work_.pdf)**] [**[PRESENTATION 2](/How%20does%20GitHub%20work_.pdf)]** | 45 (21 + 23) |
+|Nov 29, 2021| 🔎 Binary Search \[**[PRESENTATION](https://docs.google.com/presentation/d/14xQGRPi9HIJHt-dZhY07bWdxSybACF_6Wb8jBY8Zy5U/edit?usp=sharing)**\] | 🔧 ***Discord Bot Series***: Developing First Prototype and Finding Improvements  [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/29/group-b-lesson-7.html)**] | 54 (30 + 24) |
+|Nov 22, 2021| 🔣 Prefix Sum Arrays and taking Input \[**[PRESENTATION](https://docs.google.com/presentation/d/1joahZ7A0i0IAv_00pR1ERPhCOo2HDSMGpu_Ql1nubp8/edit)**\] | 📘 ***Discord Bot Series***: Project Planning and Getting Started [**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/21/group-b-lesson-6.html)**] | 57 (30 + 27) |
+|Nov 15, 2021| 🔨 Brute Force \[**[PRESENTATION](https://docs.google.com/presentation/d/1yJyxOei0kkWeNLt3CD7p_GtZOOsphKp4NnAAg98xP3I/edit?usp=sharing)**\] | 🕸️ Introduction to Web Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/14/group-b-lesson-5.html)**\] | 56 (30 + 26) |
+|Nov 8, 2021| ⛳ Intro to Contest Programming \[**[PRESENTATION](https://docs.google.com/presentation/d/1eS-lxocEa-U6mJMGZtbZvgE3gL6vcnLW1RFARamvJfs/edit?usp=sharing)**\] | 🧑‍💻 Intro to Software Development \[**[LESSON](https://woodlandscomputerscience.github.io/group-b/2021/11/04/lesson-4.html)**\] | 76 (44 + 32) |
+|Nov 1, 2021| 🧱 Functions and OOP \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/11/01/lesson-3.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1q_tvtd2422gJFqQ2y3P0ENGRsfu5QHNdPjT_tv3edWU/edit?usp=sharing)**\] | <------------- ⃰ | 69 |
+|Oct 25, 2021| -------------> ⃰ | 🔁 Loops and Basic Data Structures \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/23/lesson-2.html)**\] \[**[SLIDES](https://docs.google.com/presentation/d/1aKbvxjxs9vpj0fpPK9uKJAMg2G-Fc6ELJyDZho9_tJ4/edit?usp=sharing)**\] | 68 |
+|Oct 18, 2021| ✨ Programming Basics in Python \[**[LESSON](https://woodlandscomputerscience.github.io/group-a/2021/10/17/lesson-1.html)**\] \[**[PRESENTATION](https://docs.google.com/presentation/d/12urvOd4CdWhPrb4dziTQdQ0IUgqIpcCW9O7teTTv97E/edit?usp=sharing)**\] | <------------- ⃰ | 67 |
+|Oct 11, 2021| 🦃 __***Thanks Giving***__ | <------------- ⃰ |  <------------- ⃰ |
+|Oct 4, 2021| -------------> ⃰ | 📚 Introduction to CS and WCS Club | 85 |
+|Sept 27, 2021| 🎉 First meeting of the year | <------------- ⃰ | 65 |
 
 ⃰ *arrows refer to no Group A/B split for the day*  
 Note: Starting with new 2021/2022 meetings, there will most likely be an accompanying lesson

@@ -33,7 +33,7 @@
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
 |Mar 14, 2022| 🌨️ __***March Break***__ | <------------- ⃰ | <------------- ⃰ |
-|Mar 7, 2022| TBD | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] |  |
+|Mar 7, 2022| -------------> ⃰ | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] | 23 |
 |Feb 28, 2022| 🧺 CCC Takeup \[**[PRESENTATION](https://docs.google.com/presentation/d/19DkTbZOHNjocge5JeIAJ80tUOn26sY1M2mwQcxSNJ5I/edit)**\] | <------------- ⃰ | 27 |
 |Feb 21, 2022| 👪 __***Family Day***__ | <------------- ⃰ | <------------- ⃰ |
 |Feb 14, 2022| ✒️ Last Minute CCC Prep \[**[PRESENTATION](https://docs.google.com/presentation/d/1_PBekZM0C-HVuVSvarBF1Pobip2z51Gc18-WViNFXs8/edit)**\] | 🔓 ***Website Series***: How the Internet works \[**[LESSON 9](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-9.html)**\] | 36 (26 + 10) |

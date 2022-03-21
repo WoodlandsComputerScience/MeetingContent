@@ -32,6 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
+|Mar 21, 2022| 🏆 TWSS WCS Contest 3 | <------------- ⃰ | ? |
 |Mar 14, 2022| 🌨️ __***March Break***__ | <------------- ⃰ | <------------- ⃰ |
 |Mar 7, 2022| -------------> ⃰ | 🔐 Internet Cryptography \[**[LESSON 10](https://woodlands.codes/group-b/2022/02/14/group-b-lesson-10.html)**\] | 23 |
 |Feb 28, 2022| 🧺 CCC Takeup \[**[PRESENTATION](https://docs.google.com/presentation/d/19DkTbZOHNjocge5JeIAJ80tUOn26sY1M2mwQcxSNJ5I/edit)**\] | <------------- ⃰ | 27 |

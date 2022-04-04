@@ -32,7 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
-|Mar 4, 2022| -------------> ⃰ | 💸 **Epic RANT about Tech Careers** *(feat. [https://github.com/vishnupsatish]())* | 18 |
+|April 4, 2022| -------------> ⃰ | 💸 **Epic RANT about Tech Careers** *(feat. [https://github.com/vishnupsatish]())* | 18 |
 |Mar 28, 2022| Contest 3 Takeup! | <------------- ⃰ | 14 |
 |Mar 21, 2022| 🏆 TWSS WCS Contest 3 | <------------- ⃰ | 21 Peeps! |
 |Mar 14, 2022| 🌨️ __***March Break***__ | <------------- ⃰ | <------------- ⃰ |

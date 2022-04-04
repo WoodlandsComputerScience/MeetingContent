@@ -13,7 +13,7 @@
 ## Presenters
 | Group A (Competitive Programming) | Group B (Software Development and New Technologies) |
 |:----:|:-------:|
-| **[Jeffrey-Kai](https://github.com/jeffreykaili)** | **[Nathan](https://github.com/Nathan13888)** |
+| **[Jeffrey](https://github.com/jeffreykaili)** | **[Nathan](https://github.com/Nathan13888)** |
 | **[Marcus](https://github.com/pidddgy)** | **[Max](https://github.com/maxliu42)** |
 | **[Raymond](https://github.com/RaymondMei)** | **[Vishnu](https://github.com/vishnupsatish)** |
 
@@ -32,7 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
-|April 4, 2022| -------------> ⃰ | 💸 **Epic RANT about Tech Careers** *(feat. [https://github.com/vishnupsatish]())* | 18 |
+|April 4, 2022| -------------> ⃰ | 💸 **Epic RANT about Tech Careers** *(feat. [Vishnu Satish](https://github.com/vishnupsatish))* | 18 |
 |Mar 28, 2022| Contest 3 Takeup! | <------------- ⃰ | 14 |
 |Mar 21, 2022| 🏆 TWSS WCS Contest 3 | <------------- ⃰ | 21 Peeps! |
 |Mar 14, 2022| 🌨️ __***March Break***__ | <------------- ⃰ | <------------- ⃰ |

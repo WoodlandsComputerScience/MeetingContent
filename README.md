@@ -32,7 +32,8 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
-|April 18,  2022| 🐇 __***Easter Monday***__ | <------------- ⃰ | <------------- ⃰ |
+|April 25, 2022| -------------> ⃰ | 🐉 Introduction to C/C++, and comparison with other languages w/ ***[Daniel Sun](https://github.com/dandancool)*** | 13 |
+|April 18, 2022| 🐇 __***Easter Monday***__ | <------------- ⃰ | <------------- ⃰ |
 |April 11, 2022| ⛏️ Web Scraping \[**[SLIDES](https://docs.google.com/presentation/d/1hBpxLREhEP2P1MHTY-_vhmCpKIioIZ9PUv76ONlQwVM/edit)**\] | <------------- ⃰ | 17 |
 |April 4, 2022| -------------> ⃰ | 💸 **Epic RANT about Tech Careers** *(feat. [Vishnu Satish](https://github.com/vishnupsatish))* \[**[Meeting Notes](/epic_rant_notes.pdf)**\] | 18 |
 |Mar 28, 2022| Contest 3 Takeup! | <------------- ⃰ | 14 |

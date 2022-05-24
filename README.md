@@ -32,6 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
+|May 23, 2022| 👑 __***Victoria Day***__ | <------------- ⃰ |  <------------- ⃰ |
 |May 15, 2022| 🏆 May Contest \[**[Code Forces](https://codeforces.com/contests/382165)**\] | <------------- ⃰ | 22 |
 |May 9, 2022| -------------> ⃰ |  🎮 All about Game Engines!!! \[**[LESSON](https://woodlands.codes/games/programming/2022/05/09/lesson-11.html)**\] | 11 |
 |April 25, 2022| -------------> ⃰ | 🐉 Introduction to C/C++, and comparison with other languages w/ ***[Daniel Sun](https://github.com/dandancool)*** | 13 |

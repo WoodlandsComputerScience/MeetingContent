@@ -32,6 +32,8 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
+|June 13, 2022| 🏆 Online binarysearch.io Session | <------------- ⃰ | NA |
+|June 6, 2022| 📌 Discord Meeting | <------------- ⃰ | NA |
 |May 30, 2022| 😉 __***Cancelled Meeting (due to Staff meeting)***__ | <------------- ⃰ |  <------------- ⃰ |
 |May 23, 2022| 👑 __***Victoria Day***__ | <------------- ⃰ |  <------------- ⃰ |
 |May 15, 2022| 🏆 May Contest \[**[Code Forces](https://codeforces.com/contests/382165)**\] | <------------- ⃰ | 22 |

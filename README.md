@@ -32,7 +32,7 @@
 <!-- https://woodlandscomputerscience.github.io -->
 | Date | Group A | Group B | Member Attendance (Excluding Speakers) |
 |:----:|:-------:|:-------:|:--------------------------------------:|
-|June 13, 2022| 🏆 Online binarysearch.io Session | <------------- ⃰ | NA |
+|June 13, 2022| 🏆 Online binarysearch.io Session | __***Last Meeting of the Year!!!***__ ⃰ | NA |
 |June 6, 2022| 📌 Discord Meeting | <------------- ⃰ | NA |
 |May 30, 2022| 😉 __***Cancelled Meeting (due to Staff meeting)***__ | <------------- ⃰ |  <------------- ⃰ |
 |May 23, 2022| 👑 __***Victoria Day***__ | <------------- ⃰ |  <------------- ⃰ |
